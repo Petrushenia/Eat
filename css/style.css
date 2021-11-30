@@ -230,8 +230,11 @@
 }
 .delivery-cards {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin: -15px;
+}
+.top-delivery-card {
+  margin-bottom: 30px;
 }
 .delivery-card {
   position: relative;
@@ -239,7 +242,6 @@
   height: 182px;
   border-radius: 18px;
   overflow: hidden;
-  margin: 15px;
 }
 .delivery-image {
   width: 100%;
@@ -313,15 +315,14 @@
 }
 .tabs-content {
   display: flex;
+  justify-content: space-between;
   padding-top: 62px;
-  margin: -37px;
 }
 .tabs-card {
   max-width: 270px;
   border-radius: 20px;
   overflow: hidden;
   background-color: #fff;
-  margin: 37px;
 }
 .tabs-image {
   max-width: 100%;
@@ -371,12 +372,46 @@
   line-height: 19px;
   color: #F37321;
 }
-
-
-
-
-
-
+.section-advantage {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.cards-advantage {
+  display: flex;
+  justify-content: space-between;
+}
+.advantage-image {
+  width: 60px;
+  height: 60px;
+}
+.advantage-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 23px;
+  margin-bottom: 50px;
+}
+.card-advantage {
+  max-width: 270px;
+  min-height: 296px;
+  padding: 30px 24px 25px 23px;
+  border: 1px solid #E9E9E9;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  text-align: center;
+}
+.advantage-card-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  margin-top: 34px;
+  margin-bottom: 13px;
+}
+.advantage-text {
+  font-size: 14px;
+  line-height: 22px;
+  color: #49494F;
+  margin: 0;
+}
 .footer {
   background: #F6F6F6;
   padding: 40px 0;
