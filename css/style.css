@@ -533,10 +533,47 @@
   .delivery-card {
     flex: 50%;
     max-width: 100%;
+    min-height: 290px;
+  }
+  .button-center {
+    width: 100%;
+  }
+  .tabs {
+    display: block;
+  }
+  .tabs-item:not(:last-child) {
+    margin-bottom: 3px;
+  }
+  .tabs-link {
+    margin: 0;
   }
   .card-advantage {
     flex: 50%;
     max-width: 100%;
   }
-
+  .section-title {
+    line-height: 32px;
+  }
+  .social-links {
+    margin: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .social-link {
+    margin-right: 20px;
+    margin-left: 0;
+  }
+  .footer-logo {
+    max-width: 60%;
+    margin-bottom: 20px;
+  }
+  .footer-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-link {
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+  }
 }
