@@ -527,6 +527,12 @@
   .container {
     max-width: 90%;
   }
+  .slide {
+    padding-left: 20px;
+  }
+  .slider-buttons {
+    display: none;
+  }
   .tabs-card {
     max-width: 100%;
   }
